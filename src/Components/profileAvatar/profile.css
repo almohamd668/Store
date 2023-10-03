@@ -1,0 +1,35 @@
+:root {
+    --primary-bg: #242526;
+    --secondary-bg: #fff;
+    --primary-text-color: #555;
+    --secondary-text-color: #cecece;
+    
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+.profile {
+    float: left;
+}
+.profile img {
+ height: 40px;
+ width: 40px;
+ border-radius: 50%;
+ overflow: hidden;
+ cursor: pointer;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+.btn-primary {
+    background-color: transparent !important;
+    --bs-btn-bg: transition !important;
+    --bs-btn-border-color: transition !important;
+     
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none !important;
+  
+}
+input { 
+    box-shadow: none !important;
+   
+}
+
+.nav-link {
+    color: hsla(0, 0%, 100%, 0.897) !important;
+    
+}
+
+.active {
+       /* background-color: #084298 !important; */
+      transition: opacity .9s !important;
+      border-radius: 5px;
+}
+.links{
+    text-decoration: none;
+}
+
